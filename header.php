@@ -6,7 +6,7 @@
 <!--[if IE 7]>
 <html class="ie ie7" <?php language_attributes(); ?>>
 <![endif]-->
-<!--[if IE 8]>
+<!--[if IE 8]>ss
 <html class="ie ie8" <?php language_attributes(); ?>>
 <![endif]-->
 <!--[if IE 9]> 
@@ -27,8 +27,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 
-<?php wp_head(); ?>
-
+<?php wp_head(); ?>s
 
 </head>
 

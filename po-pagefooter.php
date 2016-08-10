@@ -1,4 +1,4 @@
-<?php
+s<?php
 /**
  * Template for displaying the page footer.
  */
@@ -6,8 +6,6 @@ global $footer_mb;
 $footer_mb->the_meta();
 
 ?>
-
-                                
                                 <?php
                             if ( 'hide' == $footer_mb->get_the_value( 'footer_top_hide' ) ) { 
                             } else {

@@ -7,6 +7,7 @@ global $post;
 
 ?>
 
+
 <?php if ( '' == get_theme_mod( 'loading_logo_upload') ) { ?>	
 <div class="loading-nologo fa-spin"></div>
 <?php } 

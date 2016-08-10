@@ -30,7 +30,6 @@ $terms = get_the_term_list( $post->ID, 'category', '', ' / ', '' );
   <div class="modal-dialog po-modal-lg">
     <div class="modal-content">
       <div class="modal-body video-container" id="yt-player">
-      
     </div>
      
     </div>

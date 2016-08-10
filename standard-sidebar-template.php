@@ -3,6 +3,7 @@
  * Template Name: Standard Sidebar
  */
 
+
 get_header();
 global $footer_mb, $page_mb;
 $page_mb->the_meta();

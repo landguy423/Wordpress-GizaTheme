@@ -10,7 +10,6 @@ $footer_mb->the_meta();
 
 <?php get_template_part( 'po-loading', 'page' ); ?>
 
-
 <?php 
 	global $query_string;
 	parse_str( $query_string, $my_query_array );
@@ -25,9 +24,8 @@ $terms = get_the_term_list( $post->ID, 'category', '', ' / ', '' );
 ?>
 
 <?php if ( has_post_format( array( 'video' ) ) ){ ?>
-
  <!-- Video Player Modal -->
-<div class="modal fade" id="myModal<?php esc_attr(the_ID()); ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-yo="myModal<?php the_ID(); ?>" data-embed-code='<?php esc_attr($format_mb->the_value('video_embed')); ?>'>
+<div class="modal fade" id="myModal<?php esc_attr(the_ID()); ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-yo="myModalLabell<?php the_ID(); ?>" data-embed-code='<?php esc_attr($format_mb->the_value('video_embed')); ?>'>
   <div class="modal-dialog po-modal-lg">
     <div class="modal-content">
       <div class="modal-body video-container" id="yt-player">
@@ -37,7 +35,6 @@ $terms = get_the_term_list( $post->ID, 'category', '', ' / ', '' );
     </div>
   </div>
 </div>
-
 
 <?php } ?>
 
@@ -99,11 +96,6 @@ $terms = get_the_term_list( $post->ID, 'category', '', ' / ', '' );
                     
                     
                     <div class="video-shade"></div>
-                    
-                    	
-                        
-                    
-                    
                     <div class="po-portfolio-slider-top" style="background:#000;">
                         <ul class="po-portfolio-slider-loop">
                             <?php
