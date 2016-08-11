@@ -39,7 +39,6 @@ $terms = get_the_term_list( $post->ID, 'category', '', ' / ', '' );
   </div>
 </div>
 
-
 <?php } ?>
 
 <?php endwhile; ?>
