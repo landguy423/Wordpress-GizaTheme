@@ -12,7 +12,6 @@ else { ?>
 	 	<img class="loading-logo center-block" src="<?php echo esc_url(get_theme_mod( 'loading_logo_upload')); ?>" alt="logo">
      </div>
      <div class="loading spin"></div>
-    
     <ul class="loading-slides" style="overflow:hidden; width:100px; height:100px;">
     	<?php
 			$args = array( 'post_type' => 'post', 'posts_per_page' => 6 );
@@ -27,7 +26,6 @@ else { ?>
         </li>
         <?php endwhile; ?>
     </ul>	
-   
 </div>
 
 <?php } ?>

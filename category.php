@@ -10,6 +10,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
 
 ?>
 
+
 <?php if ( '' == get_theme_mod( 'loading_logo_upload') ) { ?>	
 <div class="loading-nologo fa-spin"></div>
 <?php } 

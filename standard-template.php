@@ -25,7 +25,6 @@ $terms = get_the_term_list( $post->ID, 'category', '', ' / ', '' );
 ?>
 
  <?php if ( has_post_format( array( 'video' ) ) ){ ?>
-
  <!-- Video Player Modal -->
 <div class="modal fade" id="myModal<?php esc_attr(the_ID()); ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-yo="myModal<?php the_ID(); ?>" data-embed-code='<?php esc_attr($format_mb->the_value('video_embed')); ?>'>
   <div class="modal-dialog po-modal-lg">
