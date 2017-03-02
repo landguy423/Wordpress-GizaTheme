@@ -8,6 +8,7 @@ $terms = get_the_term_list( $post->ID, 'category', '', ' / ', '' );
 global $page_mb, $format_mb;
 ?>
 
+
 <?php if ( 'minimal' == $page_mb->get_the_value( 'post_style' )) { ?>
 
 
