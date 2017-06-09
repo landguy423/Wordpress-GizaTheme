@@ -10,7 +10,6 @@ global $page_mb, $format_mb;
 
 <?php if ( 'minimal' == $page_mb->get_the_value( 'post_style' )) { ?>
 
-
 <!--[if !IE 8]><!-->
 <article id="post-<?php the_ID(); ?>" <?php post_class('po-article portfolio-item-effect-4'); ?>>
 <!--<![endif]-->
